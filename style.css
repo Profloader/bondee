@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar-toggler {
+    background-color: #946CE0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.collapse,
+.navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 25px;
+    width: 100px;
+    border: none;
+    font-weight: 700;
+}
+
+.reg-button {
+    color: #fff;
+    background-color: #946CE0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 10px;
+}
+
+.log-button {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #fff;
+    color: #946CE0;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #946CE0;
+    color: #fff;
+    margin-top: 90px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.fab.fa-google-play,
+.fab.fa-apple {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.btn {
+    width: 250px;
+}
+
+.sign-button {
+    width: 200px;
+    padding: 10px;
+    background-color: #EBB703;
+    color: #fff;
+    box-shadow: 0px 16px 11px -12px #00265214;
+}
+
+.about-section {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    padding-bottom: 200px;
+}
+
+.main-ima {
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.col-md-4.main {
+    margin-top: 30px;
+}
+
+p.text-center {
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+
+.phone-section {
+    background-color: #946CE0;
+    position: relative;
+    padding-top: 50px;
+}
+
+.phone-container {
+    width: 100%;
+    position: relative;
+    transform: none
+}
+
+.one {
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    z-index: 100;
+}
+
+.two {
+    transform: none;
+    left: -5%;
+}
+
+.phone-container-pic {
+    width: 100%;
+}
+
+.phone-pic {
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    width: 100%;
+    height: 100%;
+    max-width: 59%;
+    max-height: 63%;
+    z-index: 2;
+    transform: none
+}
+
+.second {
+    transform: none;
+}
+
+.phone-text {
+    background: #EBB703E5;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 1000;
+
+}
+
+.contact {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-pic {
+    object-fit: cover;
+}
+
+.phone-text h1,
+.contact h1 {
+    font-weight: 700;
+}
+
+.contact-section {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.btns {
+    background: #5D28C0;
+    padding: 10px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type='email'] {
+    padding: 5px;
+    width: 80%;
+    margin: 10px auto 20px auto;
+}
+
+.fab {
+    font-size: 3rem;
+    color: #5D28C0;
+}
+
+hr {
+    border: 3px solid #946CE0;
+    width: 100%;
+    height: 30px;
+    margin: 30px auto 0 auto;
+}
+
+.icons {
+    gap: 25px;
+}
+footer{
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #8763CB;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.other{
+    border-bottom: 1px solid #EBB703;
+    margin-top: 60px;
+}
+.about-text {
+    background-color: #946CE0;
+    padding: 50px;
+    opacity: 0.9;
+}
+
+.header-text {
+    color: #EBB703;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-text p {
+    color: #fff;
+}
+.story-section{
+    background-color: #946CE0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+     border-bottom: 1px solid #EBB703;
+}
+.story-text{
+    background: #3E3B3B;
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+.values-section{
+    position: relative;
+        background-color: #946CE0;
+    padding: 150px 110px;
+     border-bottom: 1px solid #EBB703;
+}
+.values-section h1{
+    margin-bottom: 50px;
+}
+.values-section p, .values-section h3{
+    color: #fff;
+}
+.about-footer{
+    background-color: #946CE0;
+    padding-top: 100px;
+}
+.values-pic{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.touch-section{
+    margin-top: 100px;
+    padding: 100px 40px 200px 40px;
+}
+.touch-header{
+    color: #946CE0;
+
+}
+.contact-form{
+    border: 1px solid #946CE0;
+    padding: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .hero-text {
+        width: 60%;
+    }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1492px) {
+    .space {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .reg-button {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .sign-button {
+        margin-top: 50px;
+    }
+
+    .phone-container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .one {
+        left: 35%;
+    }
+
+    .phone-text {
+        top: 30%;
+        padding: 50px 20px;
+    }
+    .values-pic{
+        width: 40%;
+        top: 30%;
+        left: 25%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-ima {
+        width: 100%;
+    }
+
+    .phone-text {
+        top: 30%;
+        padding: 80px 20px;
+    }
+
+    .space {
+        margin-bottom: 10px;
+    }
+    .values-pic{
+        width: 73%;
+    }
+}
+
+@media (max-width:767px) {
+
+    .space {
+        margin-bottom: 10px;
+    }
+
+    .top {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+
+    .position {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .hero-pic-cont {
+        margin: 0 auto;
+    }
+
+    .about-text {
+        padding: 10px;
+    }
+    .values-section{
+        padding: 150px 50px;
+    }
+    .values-pic{
+        top: 40%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn {
+        width: 200px;
+    }
+
+    .hero-section {
+        height: 100%;
+        min-height: 500px;
+        max-height: 700px;
+    }
+
+    .navbar-brand {
+        width: 60%;
+    }
+
+    .hero-section {
+        height: 60vh;
+    }
+
+    .sign-button {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .about-text {
+        padding: 10px;
+
+    }
+     .values-section{
+        padding: 150px 50px;
+    }
+
+}
